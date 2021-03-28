@@ -15,7 +15,7 @@ public class DataSourceConfig {
         DataSourceBuilder dsb = DataSourceBuilder.create();
         dsb.username("first");
         dsb.password(securePasswordService());
-//        dsb.url("jdbc:mysql://localhost:3306/plant2");
+//        dsb.url("jdbc:mysql://localhost:3306/plant");
         return dsb.build();
     }
 
